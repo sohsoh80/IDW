@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.Menu_seleccion
+{
+    border: 1.5px solid #000;
+    background-color: #f2f2f2;
+    width: 7%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+
+position: fixed;
+
+justify-content:  space-evenly;
+
+}
+
+.Ppal{
+    border: 1.5px solid rgb(red,0,0);
+    position: relative;
+    left: 5%;
+    height: 80%;
+    width: 95%;
+
+
+}
+
+.ppal_right
+{
+    border: 1.5px solid #000;
+    width: 500px;
+    position: relative;
+    left: 50%;
+
+}
+
+.Section_Menu-Content, .Descripcion_folow{
+    background-color: #AC0000;
+}
+
+.Section_Menu-Content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Descripcion_Follow{
+    background-color: #AC0000;
+    width: 500;
+    color: #ffffff;
+}
